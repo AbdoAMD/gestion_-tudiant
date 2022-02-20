@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#633F51B5"
+
+    >
+
+    <Button
+        android:id="@+id/bnP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un Etudiant"
+        android:onClick="bnAjouterEtud"
+        android:backgroundTint="#9EFFEB3B"
+        android:textColor="#FB1100"
+
+        />
+
+    <Button
+        android:id="@+id/bnE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="bnListEtud"
+        android:text="Liste Etudinat"
+        android:backgroundTint="#9EFFEB3B"
+        android:textColor="#FB1100"/>
+
+
+
+</LinearLayout>

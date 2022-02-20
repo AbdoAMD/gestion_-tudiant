@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#4A3F51B5"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="ID :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvID"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="Nom :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="Prenom :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvPrenom"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="Note Android :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNAnd"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:width="1dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="Note Java :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNJava"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="Note Arduino :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNArd"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:gravity="center_vertical"
+            android:text="Note T&amp;V :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNTV"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="Note Circuit :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNC"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:width="1dp"
+            android:text="Note Automate :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNAUT"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:width="1dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>
